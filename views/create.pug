@@ -1,0 +1,16 @@
+html 
+    head
+        title Create User
+    body 
+        h1 Create User 
+        form(action='/createUser' method='post')
+            label(for='userID') User ID:
+            input(id='userID', name='userID') 
+            label(for='name') Name: 
+            input(id='name', name='name') 
+            label(for='email') Email:
+            input(id='email', name='email') 
+            label(for='age') Age: 
+            input(id='age', name='age') 
+            input(type='submit')
+    
