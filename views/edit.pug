@@ -3,3 +3,15 @@ html
         title Edit User
     body 
         h1 Edit User
+        a(href=`/createUser` ) Create User
+        a(href=`/userListing`) User Listings
+        form(action='/createUser' method='post')
+            label(for='userID') User ID:
+            input(id='userID', name='userID' value= currentUser.userID readonly="readonly") 
+            label(for='name') Name: 
+            input(id='name', name='name' value= currentUser.name) 
+            label(for='email') Email:
+            input(id='email', name='email' value= currentUser.email) 
+            label(for='age') Age: 
+            input(id='age', name='age' value= currentUser.age) 
+            input(type='submit')

@@ -3,9 +3,11 @@ html
         title Create User
     body 
         h1 Create User 
+        a(href=`/createUser` ) Create User
+        a(href=`/userListing`) User Listings
         form(action='/createUser' method='post')
             label(for='userID') User ID:
-            input(id='userID', name='userID') 
+            input(id='userID', name='userID', value= countKey, readonly="readonly") 
             label(for='name') Name: 
             input(id='name', name='name') 
             label(for='email') Email:
