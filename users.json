@@ -65,17 +65,11 @@
     "email": "jacob@gmail.com",
     "age": "45"
   },
-  "15": {
-    "userID": "15",
-    "name": "Bob",
-    "email": "bob@gmail.com",
-    "age": "24"
+  "17": {
+    "userID": "17",
+    "name": "Billy",
+    "email": "billy@gmail.com",
+    "age": "12"
   },
-  "142": {
-    "userID": "142",
-    "name": "sadflkj",
-    "email": "dsa;lkfj",
-    "age": "k"
-  },
-  "userCount": 142
+  "userCount": 17
 }
